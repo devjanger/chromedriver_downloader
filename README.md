@@ -1,1 +1,26 @@
 # chromedriver_downloader
+
+
+## Get started
+
+### Install with wget
+~~~ console
+wget https://raw.githubusercontent.com/devjanger/chromedriver_downloader/main/chromedriver_downloader.py -o chromedriver_downloader.py
+~~~
+
+### Install with git
+~~~ console
+git clone https://github.com/devjanger/chromedriver_downloader.git
+~~~
+
+
+~~~ python
+import chromedriver_downloader as cdd
+
+if __name__ == '__main__':
+    cdd.download_chromedriver()
+~~~
+
+
+## TODO
+- Add platform support(Linux, Mac)
