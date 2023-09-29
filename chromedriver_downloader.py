@@ -60,6 +60,3 @@ def download_chromedriver():
     os.remove(f'chromedriver_{platform}.zip')
 
     print('Done.')
-
-if __name__ == '__main__':
-    download_chromedriver()
