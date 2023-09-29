@@ -1,19 +1,19 @@
 # chromedriver_downloader
 
 
-## Get started
+## Installation
 
-### Install with wget
+#### Install with wget
 ~~~ console
 wget https://raw.githubusercontent.com/devjanger/chromedriver_downloader/main/chromedriver_downloader.py -o chromedriver_downloader.py
 ~~~
 
-### Install with git
+#### Install with git
 ~~~ console
 git clone https://github.com/devjanger/chromedriver_downloader.git
 ~~~
 
-
+## Get started
 ~~~ python
 import chromedriver_downloader as cdd
 
