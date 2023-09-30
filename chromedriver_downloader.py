@@ -37,6 +37,11 @@ def get_current_chrome_version():
 
 
 def download_chromedriver():
+    
+    if os.path.exists('chromedriver.exe'):
+        print('chromedriver.exe already exists.')
+        return
+    
     current_version = get_current_chrome_version().split('.')[0]
     download_url = get_chromedriver_download_url(current_version)
 
