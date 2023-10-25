@@ -15,7 +15,7 @@ git clone https://github.com/devjanger/chromedriver_downloader.git
 
 ## Get started
 ~~~ python
-import chromedriver_downloader as cdd
+import chromedriver_downloader.chromedriver_downloader as cdd
 
 if __name__ == '__main__':
     cdd.download_chromedriver()
