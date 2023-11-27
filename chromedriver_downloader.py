@@ -15,7 +15,7 @@ def get_chromedriver_download_url(current_version):
 
     for version in response.json()['versions'][::-1]:
         try:
-            if current_version in version['version']:
+            if version['version'].startswith(current_version):
                 chromedrivers = version['downloads']['chromedriver']
                 for chromedriver in chromedrivers:
                     if chromedriver['platform'] == platform:
