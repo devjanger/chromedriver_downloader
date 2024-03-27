@@ -75,7 +75,7 @@ def download():
         current_version = get_current_chrome_version().split('.')[0]
         if chromedriver_version == current_version:
             print('chromedriver is up to date.')
-            exit()
+            return None
 
     if not os.path.exists('chromedriver.exe') or not os.path.exists('chromedriver_version.txt'):
         download_chromedriver()
