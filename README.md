@@ -18,7 +18,7 @@ git clone https://github.com/devjanger/chromedriver_downloader.git
 import chromedriver_downloader.chromedriver_downloader as cdd
 
 if __name__ == '__main__':
-    cdd.download_chromedriver()
+    cdd.download()
 ~~~
 
 
